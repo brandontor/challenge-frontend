@@ -6,13 +6,19 @@ import style from '../styles/FirstQuestion.module.css'
 
 function FirstQuestion({setSecondUnlock}) {
 
+  //Disable button after click
   const [disabled, setDisabled] = useState(false);
+
+  //Character name state
   const { name, setName } = useContext(NameContext);
 
+
+  //name state change handler
   const onChangeHandler = (e) => {
     setName(e.target.value); 
   }
 
+  //Button submit handler with empty input validation
   const submitHandler = () => {
     if(name == '') {
       alert('please input a valid name')

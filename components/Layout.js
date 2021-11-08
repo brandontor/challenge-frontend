@@ -4,8 +4,13 @@ import style from '../styles/Layout.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Layout({children}) {
+
+    //using next layout function to carry basic page layout from first page to results page
+
+
     return (
         <div className={style.container}>
+            {/* next Head element for importing fonts and title element */}
             <Head>
                 <title>RPG Character Maker</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com"></link>

@@ -9,11 +9,13 @@ import { Button, ButtonGroup} from '@mui/material';
 
 function SecondQuestion({ secondUnlock , setThirdUnlock}) {
 
+
+    //similar button disable state 
     const [disabled, setDisabled] = useState(false);
     const { name } = useContext(NameContext);
     const { setRole } = useContext(ClassContext);
 
-
+    //This sets the class role and unlocks third question
     const submitHandler = (e) => {
         setDisabled(true)
         setRole(e.target.value)
