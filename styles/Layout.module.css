@@ -1,0 +1,39 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #2E3440;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ECEFF4;
+}
+.main {
+    height: 90%;
+    width: 100%;
+}
+
+.footer {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D8DEE9;
+    position: relative;
+}
+
+.gitHub {
+    cursor: pointer;
+}
+
+.gitHub:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+    color: #ECEFF4;
+}
