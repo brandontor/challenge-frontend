@@ -3,6 +3,8 @@ import { NameContext } from '../context/NameContext';
 import { ClassContext } from '../context/ClassContext'
 import { DobContext } from '../context/DobContext';
 //import Image from 'next/image'
+//This component was asking for width and height attributes, ill have to go back and look at the best ways to implement
+//opted for html img element
 import style from '../styles/Result.module.css'
 
 function result() {
@@ -11,6 +13,7 @@ function result() {
     const { role } = useContext(ClassContext);
     const { dob } = useContext(DobContext);
 
+    //Ternary decides what image to display based on the role state
     let src = (role == 'Warrior') ? '/warrior.png' : (role == 'Wizard') ? '/wizard.png' : (role == 'Rogue') ? '/rogue.png' : undefined
 
     return (
