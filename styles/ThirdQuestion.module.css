@@ -1,0 +1,17 @@
+.thirdQuestion {
+    height: calc(100%/4);
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.textfieldInput {
+    color: #eceff4 !important;
+}
+
+.submit {
+    margin-left: 2px;
+}

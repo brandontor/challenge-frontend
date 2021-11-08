@@ -1,0 +1,9 @@
+.secondQuestion {
+    height: calc((100%/4));
+    width: 100%;
+    opacity: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
