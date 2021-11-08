@@ -1,4 +1,4 @@
-#Welcome to the 🧙🏻‍♂️ RPG Character Maker ⚔️
+Welcome to the 🧙🏻‍♂️ RPG Character Maker ⚔️
 ---
 
 Feel free to clone the repo and run it locally
