@@ -23,9 +23,7 @@ function Layout({children}) {
 
             <main className={style.main}>{children}</main>
             
-            <footer className={style.footer}>
-                <a href="https://github.com/brandontor/challenge-frontend" className={style.gitHub} target="_blank"><GitHubIcon></GitHubIcon></a>
-            </footer>
+           
         </div>
     )
 }
